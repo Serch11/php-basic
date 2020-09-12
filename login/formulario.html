@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<style type="text/css" media="screen">
+		
+		table
+		{
+			border: 2px solid #353a46;
+			background-color: #3ABAF1;
+		}
+		input[type=text],[type=password]
+		{
+			width: 100%;
+			padding:8px 20px;
+			border: 2px solid #000;
+			box-sizing: border-box;
+		}
+		img
+		{
+			width: 300px;
+			height: 200px;
+		}
+		label
+		{
+			font-size: 14px;
+			font-weight: bold;
+			font-family: arial;
+		}
+		input[type=submit]
+		{
+			background-color: #1c94c8;
+			color: white;
+			padding: 8px 10px;
+			margin: 8px 0px;
+			border:  solid;
+			cursor: pointer;
+			width: 60%;
+
+			
+		}
+
+	</style>
+
+
+	<center>
+		
+		<form action="login.php" method="post">
+			<table>
+			<tr> <td colspan="2" rowspan="" headers="" style="background-color: #33abdb; padding-bottom: 5px; padding-top: 5px;"> <label for="">Login</label>
+			</td></tr>
+			<tr><td colspan="2" align="center"> <img src="login.jpg" alt=""></td></tr>
+			<td colspan="2"><label for="usuario">Usuario</label></td>
+			<tr><td colspan="5"><input type="text" name="usuario" id="usuario"></td></tr>
+			<tr><td colspan="2" rowspan="" headers=""><label for="pass">Password</label>
+			<tr><td colspan="5" rowspan="" headers=""><input type="password" name="password" id="password"></td></tr></td></tr>
+			<tr><td colspan="5"><input type="submit" value="Inisiar Sesion"  class="form-control"></td></tr>
+			
+		</table>
+		</form>
+		
+	</center>
+</body>
+</html>
